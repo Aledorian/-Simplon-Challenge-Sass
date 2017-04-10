@@ -1,0 +1,79 @@
+@import "variables"
+
+html
+	height: 100%
+	width: 100%
+	z-index: 0
+
+img
+	&:first-of-type
+		position: fixed
+		top: 0
+		left: 0
+		height: 100%
+		width: 100%
+		padding: 0
+		margin: 0
+
+#logo
+	position: relative
+	height: 38%
+	width: 39%
+	margin-top: 6%
+	margin-left: 2%
+	margin-bottom: 1%
+
+span
+	position: relative
+	color: $color1
+	font-family: inherit
+	font-size: 25px
+	margin-left: 2%
+
+
+	strong
+		font-family: $fonts
+
+i:first-of-type
+	position: relative
+	color: $color2
+	margin-left: 2%
+
+	//
+
+i:nth-of-type(2)
+	position: relative
+	color: $color2
+	margin-left: 1%
+
+
+i:nth-of-type(3)
+	position: relative
+	color: $color2
+	margin-left: 1%
+
+p
+	position: relative
+	color: $color2
+	max-width: 38%
+	margin-left: 2%
+	text-align: justify
+	font-size: 12px
+
+button
+	position: relative
+	color: $color2
+	background-color: $color1
+	border: 0px solid $color2
+	height: 35px
+	width: 150px
+	padding: 5px
+	font-size: 14px
+button:first-of-type
+	margin-left: 2%
+
+#arrow
+	position: absolute
+	color: $color2
+	right: 50%
+	top: 95%
